@@ -1,19 +1,11 @@
 body {
-   background-image: url("/images/sky.jpg");
-   background-color: #cccccc;
-   background-blend-mode: screen;
+  margin: 0;
 }
 
 h1 {
-   color: #937DC2;
+  margin-top: 0;
 }
 
-h3 {
-   color: #C689C6;
-}
-
-hr {
-   border-color: White;
-   border-width: thick;
-   border-style: none;
+div {
+  background-color: #e4f9f5;
 }
