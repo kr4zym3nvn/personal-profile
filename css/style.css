@@ -1,11 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap");
 body {
   margin: 0;
+  background-color: #e4f9f5;
+}
+
+img.top-left-emoji {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 10px 0 0 10px;
+  transform: rotate(13deg);
+}
+
+img.top-right-emoji {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 0 0;
 }
 
 h1 {
-  margin-top: 0;
+  text-align: center;
+  font-size: 4.5em;
+  margin: 0;
+  position: relative;
+  top: 50px;
+  font-family: "Charmonman", cursive;
 }
 
-div {
-  background-color: #e4f9f5;
+#cap-of-top-heading {
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  position: relative;
+  top: 40px;
+  font-family: "Kolker Brush", cursive;
 }
