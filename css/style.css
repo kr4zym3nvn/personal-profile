@@ -1,40 +1,86 @@
 @import url("https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap");
+
 body {
   margin: 0;
   background-color: #e4f9f5;
+  font-size: 1.25rem;
 }
 
 img.top-left-emoji {
   position: absolute;
+  left: 10px;
+  top: 10px;
   width: 100px;
   height: 100px;
   margin: 10px 0 0 10px;
   transform: rotate(13deg);
+  display: inline;
+  -webkit-transform: rotate(13deg);
+  -moz-transform: rotate(13deg);
+  -ms-transform: rotate(13deg);
+  -o-transform: rotate(13deg);
 }
 
 img.top-right-emoji {
   position: absolute;
-  top: 0;
-  right: 0;
+  display: inline;
+  right: 10px;
+  top: 10px;
   width: 100px;
   height: 100px;
   margin: 10px 10px 0 0;
+  transform: rotate(-13deg);
+  -webkit-transform: rotate(-13deg);
+  -moz-transform: rotate(-13deg);
+  -ms-transform: rotate(-13deg);
+  -o-transform: rotate(-13deg);
 }
 
-h1 {
+#profile-avatar {
+  margin-top: 80px;
+  /* căn ảnh ra giữa */
+  display: block;
+  margin: 80px auto 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 5px #fff, 0 0 0 10px #e4f9f5, 0 0 0 15px #fff,
+    0 0 0 20px #e4f9f5;
   text-align: center;
-  font-size: 4.5em;
-  margin: 0;
+}
+
+h1.top-heading {
+  text-align: center;
+  display: block;
+  font-size: 5.265rem;
+  margin-top: -50px;
+  margin-bottom: -10px;
   position: relative;
   top: 50px;
   font-family: "Charmonman", cursive;
+  color: #66bfbf;
 }
 
-#cap-of-top-heading {
+h2#cap-of-top-heading {
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5rem;
+  font-weight: 100;
   margin: 0;
   position: relative;
   top: 40px;
   font-family: "Kolker Brush", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0;
+  top: 40px;
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999e;
 }
